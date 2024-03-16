@@ -12,7 +12,7 @@ from langchain.callbacks import get_openai_callback
 def main():
     load_dotenv()
     st.set_page_config(page_title="Ask your PDF")
-    st.header("Ask your PDF 💭")
+    st.header("Ask your PDF 💬")
     
     # upload file
     pdf = st.file_uploader("Upload your PDF", type="pdf")
